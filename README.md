@@ -1,6 +1,8 @@
 # Description
 Aplicativo criado para ser entregue como atividade no Bootcamp Carrefour Web Developer da DIO.
+
 Tecnologia utilizadas: react, material-ui, styled-components, recharts
+
 Features adicionadas: Gráfico de pizza na visualização dos dados
 
 
