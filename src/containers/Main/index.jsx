@@ -1,8 +1,9 @@
 import React, { memo, useState, useCallback, useEffect } from 'react';
 import Api from '../../api';
 import { ContainerStyled } from './style';
-import Board from './components/Board'
-import Panel from './components/Panel'
+import Board from './components/Board';
+import Panel from './components/Panel';
+import Graph from './components/Graph';
 
 function Main(){
 
@@ -35,7 +36,13 @@ function Main(){
                     getCovidData={getCovidData}
                 />
             </div>
-            <Board data={data} />
+            <div>
+                <Board data={data} />
+            </div>
+            <div>
+                <Graph data={data} />
+            </div>
+
         </ContainerStyled>
     )
 }
