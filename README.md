@@ -1,3 +1,9 @@
+# Description
+Aplicativo criado para ser entregue como atividade no Bootcamp Carrefour Web Developer da DIO.
+Tecnologia utilizadas: react, material-ui, styled-components, recharts
+Features adicionadas: Gráfico de pizza na visualização dos dados
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
